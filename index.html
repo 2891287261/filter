@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			img{
+			width: 400px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			transition: all 3S;
+			}
+			.img1{
+				/* 灰度属性
+				 grayscale：设置灰度，1是百分之百，0是百分之0
+				 */
+				-webkit-filter: grayscale(1);
+			}
+			img:hover{
+				-webkit-filter:none;
+			}
+			.img2{
+			/* 亮度属性
+			 brightness:亮度，默认值是1，正常亮度
+			 */
+			-webkit-filter: brightness(2);
+			}
+			.img3{
+			/* 褐色属性
+			 sepia:褐色，1是百分之百褐色，正常为0
+			 */
+			-webkit-filter: sepia(1);
+			}
+			.img4{
+			/* 模糊度
+			 blur:单位是像素
+			 */
+			-webkit-filter: blur(5px);
+			}
+			.img5{
+			/* 对比度
+			contrast:对比度，正常就是1，如果调成0，就没有对比度，变为灰色
+			 */
+			-webkit-filter: contrast(0.5);
+			}
+			.img6{
+			/* 饱和度
+			saturate:默认为1，为0就变灰了 值越大饱和度越高
+			 */
+			-webkit-filter: saturate(2);
+			}
+			.img7{
+			/* 胶片底色
+			 */
+			-webkit-filter: invert(0.4);
+			}
+			.img8{
+			/* 色相旋转
+			 */
+			-webkit-filter: hue-rotate(45deg);
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1" src="img/liuyifei.webp" alt="">
+		<img class="img2" src="img/liuyifei.webp" alt="">
+		<img class="img3" src="img/liuyifei.webp" alt="">
+		<img class="img4" src="img/liuyifei.webp" alt="">
+		<img class="img5" src="img/liuyifei.webp" alt="">
+		<img class="img6" src="img/liuyifei.webp" alt="">
+		<img class="img7" src="img/liuyifei.webp" alt="">
+		<img class="img8" src="img/liuyifei.webp" alt="">
+	</body>
+</html>
